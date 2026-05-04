@@ -1,30 +1,30 @@
-##🌾 AgroXpert: Smart Agriculture and Irrigation System using ESP32
+## 🌾 AgroXpert: Smart Agriculture and Irrigation System using ESP32
 AgroXpert is an intelligent, IoT-powered agriculture monitoring and automation system designed to revolutionize traditional farming with real-time data and precision control. Developed using the ESP32 microcontroller, AgroXpert integrates multiple environmental sensors, automated irrigation, and remote access features to empower farmers with actionable insights, water-saving efficiency, and smart crop management — all accessible from a web dashboard or Telegram bot.
 
-##🔧 Key Hardware Features
-#ESP32 Microcontroller
+## 🔧 Key Hardware Features
+# ESP32 Microcontroller
 Acts as the brain of the system, offering Wi-Fi connectivity for remote control and data monitoring.
 
-#Soil Moisture Sensor
+# Soil Moisture Sensor
 Continuously measures the water content in soil to determine if irrigation is needed.
 
-#DHT11/DHT22 Sensor
+# DHT11/DHT22 Sensor
 Monitors ambient temperature and humidity, essential for evaluating environmental conditions affecting crop health.
 
-#Water Pump with Relay Module
+# Water Pump with Relay Module
 Automatically activated based on soil moisture levels. Farmers can also manually control it via a web interface or Telegram bot.
 
-#Water Level Sensor (Optional)
+# Water Level Sensor (Optional)
 Detects the water tank level to avoid dry running of the pump or overflow.
 
-#OLED/LCD Display (Optional)
+# OLED/LCD Display (Optional)
 Displays real-time sensor data on-site for local viewing.
 
-#Power Source
+# Power Source
 Operates on rechargeable battery or solar power (optional), making it ideal for remote farms with limited grid access.
 
-##🌐 Software & Connectivity Features
-#Web Dashboard (ESP32 Hosted)
+## 🌐 Software & Connectivity Features
+# Web Dashboard (ESP32 Hosted)
 A responsive HTML-based control panel hosted via ESP32’s access point or local Wi-Fi network. It displays:
 
 Real-time sensor data
@@ -49,14 +49,14 @@ Water tank level alerts (if sensor is connected)
 Data Logging & Analytics (optional expansion)
 Stores data in local memory or cloud (Google Sheets/Firebase) for historical trend analysis.
 
-##⚙️ Core Functionalities
-#Automated Irrigation:
+## ⚙️ Core Functionalities
+# Automated Irrigation:
 If soil moisture drops below a pre-set threshold, the ESP32 activates the water pump until ideal moisture levels are restored.
 
-#Remote Monitoring & Alerts:
+# Remote Monitoring & Alerts:
 Farmers receive sensor readings and irrigation alerts remotely via web or Telegram.
 
-#Manual Override & Safety:
+# Manual Override & Safety:
 Farmers can override the system and manually control the pump anytime. Water level safety prevents dry running.
 
 Adaptability:
